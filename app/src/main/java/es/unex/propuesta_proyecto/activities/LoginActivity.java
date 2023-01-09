@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.setTitle("Login");
         }
-
+//comentario
         btnLogin.setOnClickListener(v -> {
 
             String user = username.getText().toString();
