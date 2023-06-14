@@ -25,6 +25,7 @@ import es.unex.propuesta_proyecto.model.Accesorio;
 import es.unex.propuesta_proyecto.model.Armas;
 import es.unex.propuesta_proyecto.model.Clases;
 //Este comentario simula el desarrollo de CU02_DePrueba
+//Comentario que simula el desarrollo del CU01_DePrueba
 public class AccesoriosActivity extends AppCompatActivity implements MyAdapter.OnListInteractionListener {
 
     Spinner sBocacha;
