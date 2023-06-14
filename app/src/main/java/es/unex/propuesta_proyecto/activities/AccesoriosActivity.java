@@ -24,8 +24,7 @@ import es.unex.propuesta_proyecto.dao.AppDataBase;
 import es.unex.propuesta_proyecto.model.Accesorio;
 import es.unex.propuesta_proyecto.model.Armas;
 import es.unex.propuesta_proyecto.model.Clases;
-//ESTO ES UN TEXTO DE PRUEBA PARA SUBIR LOS CAMBIOS AL REPOSITORIO REMOTO DE GITHUB
-//ESTO ES UN TEXTO DE PRUEBA PARA LA PRUEBA DE MERGE CON LA RAMA DEVELOP
+//Comentario que simula el desarrollo del CU01_DePrueba
 public class AccesoriosActivity extends AppCompatActivity implements MyAdapter.OnListInteractionListener {
 
     Spinner sBocacha;
