@@ -2,4 +2,13 @@
 plugins {
     id 'com.android.application' version '7.3.1' apply false
     id 'com.android.library' version '7.3.1' apply false
+    id "org.sonarqube" version "4.2.1.3168"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "AdrianUEx_repositorio_prueba_2"
+    property "sonar.organization", "adrianuex"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
