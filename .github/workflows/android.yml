@@ -26,3 +26,7 @@ jobs:
       run: ./gradlew build
     - name: Tests con Gradle
       run: ./gradlew test
+    - name: Linkeo de SonarCloud
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_PRUEBA_REPO_PRUEBA_2 }}
+        run: ./gradlew build sonarqube --info
